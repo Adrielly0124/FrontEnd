@@ -1,5 +1,7 @@
 //Array (vetor) e Matrizes
 
+// => Função de Kalback
+
 //Array - sempre for lista tem que por colchetes
 let numeros = [1,2,3,4,5,6,7,8,9]; //cada um deles tem um indice...sempre começa em 0...o indice do ultimo elemento é sempre o total da lista -1
 console.log(numeros[8]);
@@ -60,7 +62,7 @@ for(let i = 0; i<100; i++){
 }
 console.log(lista);
 
-//retorna o indice 
+//retorna o indice // Se le não encontrar sempre vai retornar -1
 texto.indexOf("gato")
 
 //splice - remove o elemento de uma posição específica
@@ -74,7 +76,7 @@ let valores = [10,20,30,40,50];
 let valoresDobro = valores.map(x => x*2);
 console.log(valoresDobro);
 
-//filter
+//filter - seleciona os elementos a partir de uma operação relacional
 let parteValores = valores.filter(x => x > 20);
 
 //Exercicio - filter e map x,35  x*2
