@@ -26,10 +26,16 @@
         <br>
     </form>
     <br>
+    <div class="botoes">
+        <button type="button" (click)="validarDados()">Validar Dados</button>
+        <br>
+        <button type="button" (click)="limparDados()">Limpar</button>
+    </div>
+    <br>
     <hr>
     <br>
     <h2>Dados do Usuário Em Tempo Real</h2>
-    <div class="view">
+    <div class="view"> 
         <p><strong>Nome:</strong>{{nome}}</p>
         <p><strong>Email:</strong>{{email}}</p>
         <p><strong>Telefone:</strong>{{telefone}}</p>
